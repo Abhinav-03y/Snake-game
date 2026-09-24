@@ -22,6 +22,8 @@ const createBoard = () => {
 }
 const Render = () => {
     const cells = board.children; 
+
+    //clear
     for (const cell of cells) {
         cell.classList.remove(
             "snake",

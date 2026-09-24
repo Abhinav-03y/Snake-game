@@ -11,9 +11,9 @@ export class Game {
         //create snake 
         this.snake = new Snake();
 
-        this.speed = 150;
+        this.speed = 1000;
         this.direction = "RIGHT";
-        this.nextDirection = "UP";
+        this.nextDirection = "DOWN";
 
         this.running = true;
     }
